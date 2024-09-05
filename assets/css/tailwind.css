@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--secondary);
+ 
+ 
+}
+:root{
+--primary: #FFFFFF;
+--secondary: #0A0A0A;
+--card-bg: #0F0F0F;
+--gray: #999999;
+--dot: #16B364;
+--darkGray: #1F1F1F;
+}
+
+
+
+.font-xs {
+  font-size: clamp(1rem, 1.5vw, 1.125rem); /* 16px - 18px */
+}
+.font-sm {
+  font-size: clamp(1rem, 2vw, 1.75rem); /* 16px - 28px */
+}
+.font-base {
+  font-size: clamp(1.125rem, 2vw, 1.75rem); /* 18px - 28px */
+}
+.font-lg {
+  font-size: clamp(1.125rem, 4vw, 3.625rem); /* 18px - 58px */
+}
+
+.font-xl {
+  font-size: clamp(1rem, 1.5vw, 1.25rem); /* 16px - 20px */
+}
+

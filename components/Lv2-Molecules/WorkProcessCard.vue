@@ -30,7 +30,7 @@ defineProps({
     required: true,
   },
   icon: {
-    type: Object,
+    type: [Function, Object], 
     required: true,
   },
 });
